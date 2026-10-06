@@ -1,0 +1,63 @@
+14:36:08 **** Incremental Build of configuration Debug for project RTOS_project ****
+make -j8 all 
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/portable/MemMang/heap_4.d" -MT"ThirdParty/FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.d" -MT"ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/croutine.d" -MT"ThirdParty/FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/event_groups.d" -MT"ThirdParty/FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/list.d" -MT"ThirdParty/FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/list.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/queue.d" -MT"ThirdParty/FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/queue.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/stream_buffer.d" -MT"ThirdParty/FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/License" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"ThirdParty/FreeRTOS/tasks.d" -MT"ThirdParty/FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/tasks.o"
+In file included from ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.c:32:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/croutine.c:27:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/croutine.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/subdir.mk:19: ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:42:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/portable/MemMang/subdir.mk:19: ThirdParty/FreeRTOS/portable/MemMang/heap_4.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/stream_buffer.c:37:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/tasks.c:37:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/tasks.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/stream_buffer.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/queue.c:35:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/list.c:35:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/queue.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/list.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/event_groups.c:36:
+/home/akhilesh/Documents/MY EMBEDDED PROJECTS/RTOS DEVELOPMENT/RTOS_Workspace/RTOS_project/ThirdParty/FreeRTOS/include/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   57 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/event_groups.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:36:09 Build Failed. 17 errors, 0 warnings. (took 511ms)
+
